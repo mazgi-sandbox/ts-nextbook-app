@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint --dir src",
-    "format": "next lint --fix --dir src",
-    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "dev": "next dev -p 13000",
+    "format": "next lint --fix --dir src",
+    "lint": "next lint --dir src",
+    "start": "next start",
+    "storybook": "start-storybook -p 16006",
     "test": "jest"
   },
   "dependencies": {
